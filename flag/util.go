@@ -3,8 +3,8 @@ package flag
 import (
 	"encoding/json"
 
-	"github.com/elastic/go-ucfg"
-	"github.com/elastic/go-ucfg/cfgutil"
+	"github.com/GanillaGrace/go-ucfg"
+	"github.com/GanillaGrace/go-ucfg/cfgutil"
 )
 
 type FlagValue struct {
