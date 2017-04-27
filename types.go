@@ -8,7 +8,7 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/GanillaGrace/go-ucfg/internal/parse"
+	"github.com/ganillagrace/go-ucfg/internal/parse"
 	uuid "github.com/satori/go.uuid"
 )
 

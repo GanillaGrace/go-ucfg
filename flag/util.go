@@ -3,8 +3,8 @@ package flag
 import (
 	"encoding/json"
 
-	"github.com/GanillaGrace/go-ucfg"
-	"github.com/GanillaGrace/go-ucfg/cfgutil"
+	"github.com/ganillagrace/go-ucfg"
+	"github.com/ganillagrace/go-ucfg/cfgutil"
 )
 
 type FlagValue struct {
@@ -35,7 +35,7 @@ func (v *FlagValue) String() string {
 	if v.collector == nil {
 		return ""
 	}
-	
+
 	return toString(v.Config(), v.collector.GetOptions(), v.onError)
 }
 

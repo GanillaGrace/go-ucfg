@@ -3,9 +3,9 @@ package flag
 import (
 	goflag "flag"
 
-	"github.com/GanillaGrace/go-ucfg"
-	"github.com/GanillaGrace/go-ucfg/json"
-	"github.com/GanillaGrace/go-ucfg/yaml"
+	"github.com/ganillagrace/go-ucfg"
+	"github.com/ganillagrace/go-ucfg/json"
+	"github.com/ganillagrace/go-ucfg/yaml"
 )
 
 func ConfigVar(

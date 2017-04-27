@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/GanillaGrace/go-ucfg"
-	"github.com/GanillaGrace/go-ucfg/internal/parse"
+	"github.com/ganillagrace/go-ucfg"
+	"github.com/ganillagrace/go-ucfg/internal/parse"
 )
 
 // NewFlagKeyValue implements the flag.Value interface for

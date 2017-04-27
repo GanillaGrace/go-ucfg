@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"io/ioutil"
 
-	"github.com/GanillaGrace/go-ucfg"
+	"github.com/ganillagrace/go-ucfg"
 )
 
 func NewConfig(in []byte, opts ...ucfg.Option) (*ucfg.Config, error) {
